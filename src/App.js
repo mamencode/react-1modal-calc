@@ -1,15 +1,13 @@
-import React from "react";
-import "./style.css";
-import Insert from "./Insert";
+import React from 'react';
+import './style.css';
+import Insert from './Insert';
+import TheModal from './TheModal';
 
 export default function App() {
   return (
     <div>
       <Insert />
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-
-      
+      <TheModal />
     </div>
   );
 }
